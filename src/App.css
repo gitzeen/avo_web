@@ -14,7 +14,3 @@ a {
     color: unset;
     text-decoration: none;
 }
-
-.text {
-    background: var(--color-text);
-}
