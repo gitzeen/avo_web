@@ -1,0 +1,50 @@
+.avo__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 4rem;
+}
+
+.avo__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avo__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.avo__navbar-links_logo img {
+    width: 130px;
+    height: 30px;
+}
+
+.avo__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.avo__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.avo__navbar-links_container p, .avo__navbar-sign p, .avo__navbar-menu_container p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.avo__navbar-sign p {
+    cursor: pointer;
+}
